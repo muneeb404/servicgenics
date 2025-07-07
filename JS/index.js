@@ -177,7 +177,7 @@ contactForm.addEventListener("submit", function (e) {
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      access_key: "85662e05-f271-464f-8e72-23492c124802", // use your own key
+      access_key: "744fc189-75dc-4739-ac37-74266252b1a9", // use your own key
       subject: option,
       from_name: name,
       email: email,
@@ -250,7 +250,7 @@ newsletterForm.addEventListener("submit", function (e) {
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      access_key: "85662e05-f271-464f-8e72-23492c124802",
+      access_key: "744fc189-75dc-4739-ac37-74266252b1a9",
       email: email,
       subject: "Newsletter Subscription",
       from_name: "ServicGenics Website"
